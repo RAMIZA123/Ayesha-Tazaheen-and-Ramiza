@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <link rel="stylesheet"href="style.css"/>
+    <title>document</title>
+</head>
+<body>
+    <h1>heading</h1>
+    <h2 class="heading">heading</h2>
+    <h3>heading</h3>
+    <h4 class="heading">heading</h4>
+    <h5>heading</h5> 
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>mobile</th>
+            </tr>
+        </thead> 
+     <tbody>
+        <tr>
+            <td>ramiza</td>
+            <td>ramizamalagi@gamil.com</td>
+            <td>8971057130</td>
+        </tr>
+    </tr>
+    <td>ayesha</td>
+    <td>ayeshabalebai@gamil.com</td>
+    <td>0098467338</td>
+    </tr>
+</tr>
+    <td>tazaheen</td>
+    <td>tazaheens@gamil.com</td>
+    <td>8899764320</td>
+</tr>/
+</tbody>
+<form action="">
+    <div>
+        <label for="text">full name:</label>
+        <input type="text"id="text"required/>
+        
+    </div>
+    <div>
+        <label for="Email">Email</label>
+        <input type="email"id="email"required/>
+    </div>
+</div>
+
+    <label for="password">password:</label>
+    <input type="password"id="password"requried/>
+</dive>
+
+<dive>
+    <label for="age">age:</label>
+    <input type="number"id="age"min="1"max="100"requrired/>
+</div>
+<div>
+    <label for="phone">phone number:</label>
+    <input type="tel"id="phone"pattern="[0-9][10]"required/>
+    
+    <label for="website">website:</label>
+    <input type="url"id="website"/>
+
+    <label for="dob">date of birth</label>
+    <input type="time"id="time"/>
+
+    <label for="time">preferred time:</label>
+    <input type="time"id="time"/>
+
+    <label for="file">upload resume:</label>
+    <input type="file"id="file"/>
+
+    <label>gender:</label>
+    <input type="radio"id="male"name="gender"value="male"/>
+    <label for="male">male</label>
+    <input type="radio"id="female"name="gender"value="female"/>
+    <label for="male">female</label>
+    <label>hobbies:</label>
+    <input type="checkbox"id="sports"value="sports"/>
+    <label for="sports">sports</label> 
+    <input type="checkbox"id="music"value="music"/>
+    <label for="music">music</label>
+    
+    <label for="country">country:</label>
+    <select id="country">
+        <option value="usa">USA</option>
+        <option value="uk">UK</option>
+        <option value="india">INDIA</option>
+        </select>
+
+        <label for="experience">experience(years):</label>
+        <input type="range"id="experience"min="0"max="20"/>
+
+        <label for="favcolour">favorite colour</label>
+        <input type="colour"id="favcolour"/>
+
+        <label for="message">message:</label>
+        <textarea id="message">afivaui</textarea>
+
+        <button type="submit">submit</button>
+
+
+    </form>
+
+
+<body>
+   

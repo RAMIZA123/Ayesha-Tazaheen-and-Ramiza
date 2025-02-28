@@ -1,0 +1,27 @@
+h1{
+    color: red;
+    background-color:pink;
+}
+.heading{
+    color: yellow;
+    background-color:brown;
+    ;
+    
+}
+#heading5 {
+    color: blueviolet;
+    background-color: orange;
+}
+input[type="text"]{
+    color: chartreuse;
+    background-color: pink;
+}
+input[type="text"]{
+    color: blueviolet;
+    background-color: #fa1138ec;
+}
+
+input[type="text"]{
+    color: #8823ec;
+    background-color: #fa1138ec;
+}
